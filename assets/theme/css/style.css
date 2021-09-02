@@ -11,6 +11,11 @@ body {
   position: relative;
 }
 
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 section,
 .container,
 .container-fluid {
@@ -685,6 +690,7 @@ input[type=range] {
 .navbar-toggler:focus,
 .navbar-toggler:hover {
   text-decoration: none;
+  box-shadow: none;
 }
 
 .navbar-toggler-icon {
@@ -915,4 +921,21 @@ blockquote {
 
 .app-video-wrapper > img {
   opacity: 1;
+}
+
+.item {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-menu {
+  left: 100%;
+}
+
+.dropdown-item + .dropdown-menu {
+  display: none;
+}
+
+.dropdown-item:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
 }
