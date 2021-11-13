@@ -1,4 +1,6 @@
-Sitemap: https://juntechwebsolutions.ga/
+Sitemap: https://juntechwebdesign.ga/
 User-agent: *
 User-agent: Twitterbot
+
+
 
