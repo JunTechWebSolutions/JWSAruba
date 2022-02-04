@@ -1,7 +1,5 @@
-Sitemap: https://juntechwebsolutions.ga/
+Sitemap: https://www.juntechwebsolutions.ga/sitemap.xml
 User-agent: *
-User-agent: Twitterbot
-
-
+Disallow: /cgi-bin
 
 
