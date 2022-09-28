@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JWS Aruba",
-    "currentPage": "JunTech-Web-Design-Portfolio.html",
+    "currentPage": "about-juntech-web-solutions-aruba.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -77,7 +77,7 @@
     "robotsText": "Sitemap: https://www.juntechwebsolutions.ga/sitemap.xml\nUser-agent: *\nDisallow: /cgi-bin\n\n\n\n\n",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8WLWQQ6WHC\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-8WLWQQ6WHC');\n</script>",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "fayqo5utuf",
+    "mbrsiteDomain": "imwcdcdqax",
     "witsec-language": "en",
     "witsec-mailform": false,
     "witsec-white-label": true,
@@ -114,14 +114,16 @@
       "email": "juntechwebsolutions@gmail.com"
     },
     "global_footer_custom": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org/\", \n  \"@type\": \"BreadcrumbList\", \n  \"itemListElement\": [{\n    \"@type\": \"ListItem\", \n    \"position\": 1, \n    \"name\": \"JunTech Web Solutions\",\n    \"item\": \"https://www.juntechwebsolutions.ga/\"  \n  },{\n    \"@type\": \"ListItem\", \n    \"position\": 2, \n    \"name\": \"Owner & Lead Web Designer\",\n    \"item\": \"https://www.juntechwebsolutions.ga/team-juntech-web-solutions-aruba\"  \n  }]\n}\n</script>\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Juny Engelhart (JunTech)\",\n  \"url\": \"https://www.juntechwebsolutions.ga/team-juntech-web-solutions-aruba\",\n  \"image\": \"https://pbs.twimg.com/profile_images/1447591396651814916/BsiDVZIy_400x400.jpg\",\n  \"sameAs\": \"https://twitter.com/JunTechPC_aw\",\n  \"jobTitle\": \"Owner & Lead Web Designer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"JWS Aruba\"\n  }  \n}\n</script>",
-    "global_before_html": ""
+    "global_before_html": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "JunTech Web Solutions | Web Designer Aruba",
-        "meta_descr": "JunTech Web Solutions is an experienced Web Designer based in Aruba. We design SEO-friendly websites that is primed for search engine optimization.",
+        "title": "JunTech Web Solutions | Freelance Website Designer Aruba",
+        "meta_descr": "JunTech Web Solutions is an experienced Freelance Website Designer based in Aruba. JWS Aruba designs SEO-friendly websites that are primed for search engine optimization.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -45102,7 +45104,7 @@
       "settings": {
         "title": "About Us | Who We Are | JunTech Web Solutions Aruba",
         "order": "4",
-        "meta_descr": "JunTech Web Solutions was established in 2005 by Juny Engelhart, an experienced website designer helping small businesses to achieve their marketing goals.",
+        "meta_descr": "JunTech Web Solutions was established in 2005 by Juny Engelhart, an experienced freelance website designer based in Aruba, helping small businesses to achieve their marketing goals.",
         "meta_image": "@PROJECT_PATH@/assets/images/about-juntech-web-solutions-aruba.svg"
       },
       "components": [
