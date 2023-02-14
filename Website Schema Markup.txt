@@ -1,0 +1,14 @@
+<script type='application/ld+json'>
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://juntechwebsolutions.ga",
+	"name": "JunTech Web Solutions Aruba",
+	"alternateName": "JWS Aruba",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://juntechwebsolutions.ga/services-juntech-web-solutions-aruba",
+		"query-input": "Website Designer and SEO Expert in Aruba"
+	}
+}
+</script>

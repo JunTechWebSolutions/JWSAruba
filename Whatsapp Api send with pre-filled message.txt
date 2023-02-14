@@ -1,0 +1,7 @@
+Whatsapp Api send with pre-filled message which is in the url
+
+https://wa.me/+2975629196?text=Hi there! Welcome to JunTech Web Solutions Aruba.%20My name is Juny Engelhart.%20JWS Aruba is looking forward to working on your project%20if you need%20any assistance,%20I’m always here.
+
+
+
+
