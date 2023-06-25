@@ -5,7 +5,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'font';
+  font-family: 'Poppins', sans-serif;
   font-size: 4.8rem;
   line-height: 1.1;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 6rem;
 }
 .display-2 {
-  font-family: 'font';
+  font-family: 'Poppins', sans-serif;
   font-size: 2.6rem;
   line-height: 1.1;
 }
@@ -21,15 +21,15 @@ body {
   font-size: 3.25rem;
 }
 .display-4 {
-  font-family: 'font';
-  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .display-5 {
-  font-family: 'font';
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
 }
@@ -37,12 +37,12 @@ body {
   font-size: 2.25rem;
 }
 .display-7 {
-  font-family: 'font';
-  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -66,9 +66,9 @@ body {
     line-height: calc( 1.3 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.88rem;
-    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.44rem;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.04rem;
-    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -589,13 +589,13 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'font';
-  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -603,13 +603,13 @@ a:hover {
   border-color: #0684ff !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'font';
-  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 blockquote {
   border-color: #0684ff;
@@ -23503,7 +23503,7 @@ a {
   .cid-sFrZuYELh7 .image-wrap img {
     display: block;
     margin: auto;
-    width: 30%;
+    width: 40%;
   }
 }
 .cid-sFrZuYELh7 .mbr-section-title {
@@ -26521,16 +26521,22 @@ a {
 .cid-sOMaVHDt0b .mbr-description {
   color: #ffffff;
 }
-.cid-sOEDx1PdRa {
+.cid-txhDkWpcL0 {
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #23272b;
 }
-.cid-sOEDx1PdRa .mbr-section-title {
-  color: #0684ff;
-}
-.cid-sOEDx1PdRa .mbr-section-subtitle {
+.cid-txhDkWpcL0 .mbr-text {
+  text-align: center;
   color: #ffffff;
+}
+.cid-txhDkWpcL0 .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-txhDkWpcL0 .mbr-section-title {
+  text-align: center;
+  color: #0684ff;
 }
 .cid-sOGqL1SQ0W {
   padding-top: 1rem;
