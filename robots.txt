@@ -1,7 +1,2 @@
-Sitemap: https://www.juntechwebsolutions.ga/sitemap.xml
 User-agent: *
 Disallow: /cgi-bin
-
-
-
-
