@@ -30,13 +30,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#161616",
         "#191b1f",
         "#23272b",
         "#111111",
         "#010a12",
         "#3c3c3c",
-        "#0684ff",
-        "#464646"
+        "#0684ff"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -49,8 +49,8 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 2057,
-    "versionPublish": "5.8.22",
+    "uniqCompNum": 2058,
+    "versionPublish": "5.8.25",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/web-graphic-design-juntech-aruba-favicon.ico",
     "robotsSwitcher": true,
@@ -67,7 +67,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-RC5J25MZ99\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-RC5J25MZ99');\n</script>",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "32vtdhhowe",
+    "mbrsiteDomain": "rdshppkmw2",
     "witsec-language": "en",
     "witsec-mailform": false,
     "witsec-white-label": true,
@@ -122,7 +122,9 @@
       "bgColor": "#0684ff",
       "iconColor": "#b0b2b5",
       "placeholderText": "Password"
-    }
+    },
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -753,7 +755,7 @@
           },
           "_name": "header9",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"5\" condition=\"showImage\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/jws-aruba-website-designer-seo-expert-1.webp\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/625259927\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0684ff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"text-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <div class=\"image-wrap mb-4\" mbr-if=\"showImage\">\n                    <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/juntech-web-solutions-aruba-logo-animated-3.svg\" alt=\"JunTech-Website-SEO-Solutions-Aruba-logo\"></a>\n                </div>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Website Design &amp; SEO Services in Oranjestad, Aruba</h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://bio.link/jwsaruba\" class=\"text-primary\" target=\"_blank\">⟨JunTech Web Solutions⟩</a></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"JunTech-Web-Design-Portfolio.html\" data-app-placeholder=\"Type Text\">VISIT MY PORTFOLIO &gt;</a> <a class=\"btn btn-success-outline\" href=\"index.html#Marketing-Services-JWS-Aruba\" data-app-placeholder=\"Type Text\">VIEW ALL CORE SERVICES &gt;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"5\" condition=\"showImage\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/jws-aruba-website-designer-seo-expert-1.webp\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/625259927\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0684ff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"text-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <div class=\"image-wrap mb-4\" mbr-if=\"showImage\">\n                    <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/juntech-web-solutions-aruba-logo-animated-3.svg\" alt=\"JunTech-Website-SEO-Solutions-Aruba-logo\"></a>\n                </div>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Website Design &amp; SEO Services in Aruba</h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://bio.link/jwsaruba\" class=\"text-primary\" target=\"_blank\">⟨JunTech Web Solutions⟩</a></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"JunTech-Web-Design-Portfolio.html\" data-app-placeholder=\"Type Text\">VISIT MY PORTFOLIO &gt;</a> <a class=\"btn btn-success-outline\" href=\"index.html#Marketing-Services-JWS-Aruba\" data-app-placeholder=\"Type Text\">VIEW ALL CORE SERVICES &gt;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "szHDYdcqmB",
           "_anchor": "Header-JWS-Aruba-Website-Designer",
           "_protectedParams": [],
@@ -782,7 +784,7 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#23272b\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Welcome to <a href=\"https://linktr.ee/jwsaruba\" class=\"text-primary\" target=\"_blank\">JunTech Web Solutions</a></h3>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><a href=\"https://github.com/JunTechWebSolutions/JWSAruba.git\" class=\"text-success\" target=\"_blank\">Website Designer and SEO Expert</a>&nbsp;✓</h2>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>JunTech Web Solutions</b>&nbsp;provides website design, SEO, and digital marketing solutions in Aruba.&nbsp;I'm a freelance <b><a href=\"team-juntech-web-solutions-aruba.html#team-Juny-Engelhart-Web-Designer-Aruba\" class=\"text-primary\">Website Designer</a></b> based in <a href=\"https://en.wikipedia.org/wiki/Aruba\" class=\"text-primary\" target=\"_blank\">Aruba</a> who is dedicated to providing the best possible service to my clients. My work includes creating <a href=\"web-design-solution-juntech-aruba.html\" class=\"text-primary\">Responsive Web Design</a>, <a href=\"seo-services-aruba.html\" class=\"text-primary\">Search Engine Optimization</a> (SEO), <a href=\"Local-SEO-Services-Aruba.html\" class=\"text-primary\">(GMB) Management Services</a>,&nbsp;<a href=\"JWS-Aruba-Digital-Marketing.html\" class=\"text-primary\">Digital Marketing</a>, and <a href=\"cdn-hosting-providers.html\" class=\"text-primary\"></a><a href=\"cdn-hosting-providers.html\" class=\"text-secondary\">Web Hosting</a>.&nbsp;Small business startup or not, you’ll need a website that gets your name out there.<br><br>Get started with a website that truly represents your business and drives results. Contact<a href=\"contact-juntech-web-solutions-aruba.html\" class=\"text-primary\"> JunTech Web Solutions Aruba</a> today to learn more about how we can help your business grow.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#23272b\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Welcome to <a href=\"https://linktr.ee/jwsaruba\" class=\"text-primary\" target=\"_blank\">JunTech Web Solutions</a></h3>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><a href=\"https://github.com/JunTechWebSolutions/JWSAruba.git\" class=\"text-success\" target=\"_blank\">Website Designer and SEO Expert</a>&nbsp;✓</h2>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>JWS Aruba</b>&nbsp;provides website design, SEO, and digital marketing solutions in Aruba.&nbsp;I'm a freelance <b><a href=\"team-juntech-web-solutions-aruba.html#team-Juny-Engelhart-Web-Designer-Aruba\" class=\"text-primary\">Website Designer</a></b> based in <a href=\"https://en.wikipedia.org/wiki/Aruba\" class=\"text-primary\" target=\"_blank\">Aruba</a> who is dedicated to providing the best possible service to my clients. My work includes creating <a href=\"web-design-solution-juntech-aruba.html\" class=\"text-primary\">Responsive Web Design</a>, <a href=\"seo-services-aruba.html\" class=\"text-primary\">Search Engine Optimization</a> (SEO), <a href=\"Local-SEO-Services-Aruba.html\" class=\"text-primary\">(GMB) Management Services</a>,&nbsp;<a href=\"JWS-Aruba-Digital-Marketing.html\" class=\"text-primary\">Digital Marketing</a>, and <a href=\"cdn-hosting-providers.html\" class=\"text-primary\"></a><a href=\"cdn-hosting-providers.html\" class=\"text-secondary\">Web Hosting</a>.&nbsp;Small business startup or not, you’ll need a website that gets your name out there.<br><br>Get started with a website that truly represents your business and drives results. Contact<a href=\"contact-juntech-web-solutions-aruba.html\" class=\"text-primary\"> JunTech Web Solutions Aruba</a> today to learn more about how we can help your business grow.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "Aruba-Website-Designer-SEO-Expert",
           "_isUserblock": true,
           "_cid": "sLwoT8BKKw",
@@ -794,30 +796,64 @@
           "_params": {}
         },
         {
-          "_name": "afeatures10",
+          "_name": "afeatures1",
           "_sourceTheme": "expertm5",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bg-value",
-            "overflow": "hidden",
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "background-attachment": "fixed",
+              "background-repeat": "no-repeat",
+              "background-size": "cover",
+              "background-position": "center center"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
             ".container": {
-              "padding-left": "15px",
-              "padding-right": "15px",
-              "@media (max-width: 1599px)": {
-                "padding-left": "10px",
-                "padding-right": "10px"
+              "max-width": "1280px",
+              "margin": "0 auto",
+              "padding-left": "25px",
+              "padding-right": "25px",
+              "@media (max-width: 1199px)": {
+                "max-width": "960px",
+                "padding-left": "15px",
+                "padding-right": "15px"
+              },
+              "@media (max-width: 991px)": {
+                "max-width": "720px"
+              },
+              "@media (max-width: 767px)": {
+                "max-width": "540px"
               }
             },
             ".row": {
-              "margin-left": "-30px",
-              "margin-right": "-30px",
+              "margin-left": "-25px",
+              "margin-right": "-25px",
               "justify-content": "flex-start",
               "> [class*=\"col\"]": {
-                "padding-left": "30px",
-                "padding-right": "30px"
+                "padding-left": "25px",
+                "padding-right": "25px"
               },
-              "@media (max-width: 991px)": {
+              "@media (max-width: 1199px)": {
                 "margin-left": "-15px",
                 "margin-right": "-15px",
                 "> [class*=\"col\"]": {
@@ -827,115 +863,46 @@
               }
             },
             ".mbr-section-head": {
-              "width": "100%",
-              "padding-bottom": "40px"
+              "margin-bottom": "20px",
+              "width": "100%"
             },
             ".mbr-section-title": {
-              "color": "#0684ff",
-              "@media (max-width: 767px)": {
-                "text-align": "center"
-              }
+              "color": "#0684ff"
             },
             ".mbr-section-subtitle": {
               "color": "#ffffff",
-              "margin-top": "15px",
+              "padding-top": "0.6rem",
+              "padding-bottom": "0.6rem",
               "@media (max-width: 767px)": {
-                "margin-top": "10px",
-                "text-align": "center"
+                "padding-top": "0.325rem",
+                "padding-bottom": "0.325rem"
               }
             },
             ".card-row": {
               "align-items": "stretch"
             },
-            ".cards-container-2": {
-              "@media (max-width: 767px)": {
-                "margin-top": "50px"
-              }
-            },
-            ".cards-head": {
-              "width": "100%"
-            },
-            ".cards-title": {
-              "color": "#FF014E"
-            },
-            ".cards-subtitle": {
-              "color": "#ffffff",
-              "margin-top": "15px",
-              "@media (max-width: 767px)": {
-                "margin-top": "10px"
-              },
-              "text-align": "center"
-            },
-            ".cards-list": {
-              "width": "100%",
-              "margin-top": "50px",
-              "padding-left": "31px",
-              "border-left": "5px solid @cardFrameColor"
-            },
             ".card": {
-              "overflow": "visible",
-              "&:not(:first-child)": {
-                "margin-top": "50px",
-                "@media (max-width: 991px)": {
-                  "margin-top": "30px"
-                }
-              }
+              "margin-top": "30px"
             },
             ".card-wrapper": {
               "position": "relative",
               "height": "100%",
               "width": "100%",
-              "overflow": "visible",
-              "padding": "45px 40px",
-              "border-radius": "6px",
+              "padding": "35px",
+              "border-radius": "10px",
+              "overflow": "hidden",
               "background": "linear-gradient(145deg, @cardBg1, @cardBg2)",
-              "& when (@cardShadow)": {
-                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
-              },
-              "@media (max-width: 1199px)": {
-                "padding": "30px 25px"
-              },
-              "@media (max-width: 991px)": {
-                "padding": "30px"
-              },
-              "@media (max-width: 575px)": {
-                "padding": "20px"
-              },
-              "&:before": {
-                "position": "absolute",
-                "content": "\"\"",
-                "width": "28px",
-                "height": "5px",
-                "right": "100%",
-                "top": "63px",
-                "transform": "translateY(-7px)",
-                "background": "@cardFrameColor",
-                "z-index": "0"
-              },
-              "&:after": {
-                "position": "absolute",
-                "content": "\"\"",
-                "width": "20px",
-                "height": "20px",
-                "border": "5px solid @cardFrameColor",
-                "border-radius": "100%",
-                "left": "-43.5px",
-                "top": "55px",
-                "transform": "translateY(-7px)",
-                "background": "@bg-value",
-                "transition": ".4s all"
-              },
               "&:hover": {
-                "&:after": {
-                  "background": "@primaryColor"
-                },
                 ".card-bg": {
                   "opacity": "1"
+                },
+                ".card-box": {
+                  "transform": "translateY(0)"
                 },
                 ".card-title": {
                   "color": "@cardHoverText !important"
                 },
-                ".card-subtitle": {
+                ".card-text": {
                   "color": "@cardHoverText !important"
                 }
               }
@@ -947,7 +914,7 @@
               "z-index": "4",
               "width": "100%",
               "height": "100%",
-              "border-radius": "5px",
+              "border-radius": "10px",
               "background": "linear-gradient(to right bottom, @cardHoverBg1, @cardHoverBg2)",
               "opacity": "0",
               "transition": ".5s all"
@@ -955,67 +922,39 @@
             ".card-box": {
               "position": "relative",
               "z-index": "5",
-              "width": "100%"
+              "height": "100%",
+              "transition": "700ms cubic-bezier(0.17, 0.67, 0, 1.01)",
+              "transform": "translateY(20px)"
             },
-            ".card-text-container": {
+            ".iconfont-wrapper": {
               "display": "flex",
               "align-items": "center",
-              "justify-content": "space-between",
-              "width": "100%",
-              "& when (@cardBorder)": {
-                "border-bottom": "1px solid @borderColor"
-              },
-              "padding-bottom": "20px",
-              "margin-bottom": "20px",
-              "@media (max-width: 1199px)": {
-                "flex-wrap": "wrap"
-              }
-            },
-            ".card-text-wrap": {
-              "margin-bottom": "15px",
+              "justify-content": "flex-start",
               "margin-right": "auto",
-              "padding-right": "10px",
-              "@media (max-width: 1199px)": {
-                "width": "100%",
-                "padding-right": "0"
+              "margin-bottom": "30px",
+              ".mbr-iconfont": {
+                "font-size": "42px",
+                "color": "@iconColor"
               }
             },
             ".card-title": {
-              "color": "#0684ff",
-              "margin-bottom": "7px",
+              "color": "#C4CFDE",
+              "margin-bottom": "20px",
               "transition": ".5s all"
-            },
-            ".card-subtitle": {
-              "color": "#ffffff",
-              "transition": ".5s all",
-              "margin-bottom": "0"
-            },
-            ".card-text-label": {
-              "padding": "7px 15px",
-              "border-radius": "6px",
-              "margin-left": "auto",
-              "background": "linear-gradient(145deg, @cardBg1, @cardBg2)",
-              "& when (@cardShadow)": {
-                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
-              },
-              "@media (max-width: 1199px)": {
-                "margin-left": "0"
-              }
-            },
-            ".card-label": {
-              "color": "#0684ff",
-              "margin-bottom": "0"
             },
             ".card-text": {
-              "color": "#ffffff",
-              "margin-bottom": "0",
+              "color": "#878e99",
+              "margin-bottom": "22px",
               "transition": ".5s all"
+            },
+            ".card-title, .iconfont-wrapper": {
+              "color": "#0684ff"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features10 expertm5\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Cards Title\" name=\"showCardsTitle\">\n        <input type=\"checkbox\" title=\"Cards Subtitle\" name=\"showCardsSubtitle\" checked>\n        <input type=\"range\" inline title=\"List Count\" name=\"listCount\" min=\"1\" max=\"2\" step=\"1\" value=\"2\">\n        <select title=\"Cards 1\" name=\"cardsAmount1\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <select title=\"Cards 2\" name=\"cardsAmount2\" condition=\"listCount >1\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Card Style</header>\n        <input type=\"color\" title=\"Card Frame Color\" name=\"cardFrameColor\" value=\"#16181c\">\n        <input type=\"color\" title=\"Card BG 1\" name=\"cardBg1\" value=\"#1e2024\">\n        <input type=\"color\" title=\"Card BG 2\" name=\"cardBg2\" value=\"#23272b\">\n        <input type=\"checkbox\" name=\"cardBorder\" title=\"Card Border\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#0684ff\" condition=\"cardBorder\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Card Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#191b1f\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#23272B\" condition=\"cardShadow\">\n        <header>Card Hover</header>\n        <input type=\"color\" title=\"Card Text Color\" name=\"cardHoverText\" value=\"#FFFFFF\">\n        <input type=\"color\" title=\"Card BG 1\" name=\"cardHoverBg1\" value=\"#212428\">\n        <input type=\"color\" title=\"Card BG 2\" name=\"cardHoverBg2\" value=\"#16181c\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#23272b\" selected>\n        </fieldset>\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <div class=\"mbr-section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><a href=\"services-juntech-web-solutions-aruba.html\" class=\"text-primary\">Digital Marketing Services JWS Aruba provide</a></h3>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">JWS digital marketing services will help you increase your traffic with SEO optimized and targeted content marketing tactics utilizing various digital channels. Showcase your services and offerings and attract client prospects right from your website. Digital marketing is any type of promotional activity done via the web. This includes anything in our list of digital marketing services:</h5>\n                </div>\n            </div>\n        </div>\n        <div class=\"row card-row {{contentAlign}}\">\n            <div class=\"cards-container cards-container-1 col-12 col-md-6\">\n                <div class=\"cards-head\" mbr-if=\"showCardsTitle || showCardsSubtitle\">\n                    <h3 class=\"cards-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showCardsTitle\" data-app-selector=\".cards-title\">\n                        1997 - 2010\n                    </h3>\n                    <h5 class=\"cards-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showCardsSubtitle\" data-app-selector=\".cards-subtitle\">For more information about JWS Aruba digital marketing services, please click below⬇️</h5>\n                </div>\n                <div class=\"cards-list\" mbr-if=\"showSubtitle || showTitle || showText || showLabel\">\n                    <div class=\"card\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Website Design Services⚡</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Cum sociis (2006 - 2010)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\"><a href=\"web-design-services-aruba.html\" class=\"text-primary\">⟩</a></p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                                    JWS Aruba provides an aesthetic, modern website design that conveys the right information, creates a connection with the viewer, and accurately portrays your exact message. We fully customize your site to maximize your goals. A responsive website optimized for search engines and primed for ranking.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardsAmount1 > 1\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Search Engine Optimization (SEO) Services🚀</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Quisque sagittis (2001 - 2005)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\"><a href=\"seo-services-aruba.html\" class=\"text-primary\">⟩</a></p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Are you looking for SEO services in Aruba? Then you are in the right place. JWS Aruba offers affordable SEO services such as performance audits, domain management, and content analysis to identify, solve, and optimize website problems and improve your search engine rankings, generate more organic traffic, and maximize your business visibility.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardsAmount1 > 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">On-page Optimization</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Pellentesque nec (1998 - 2000)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\">\n                                            <a href=\"on-page-off-page-seo-services.html\" class=\"text-primary\">⟩</a>\n                                        </p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                                    On-page SEO is the practice of optimizing your webpages to get a higher ranking in the SERPs. This type of SEO focuses on features you can control on your website, including content, keyword research, content creation, header tag design and appearance, and other technical elements.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"cards-container cards-container-2 col-12 col-md-6\" mbr-if=\"listCount > 1\">\n                <div class=\"cards-head\" mbr-if=\"showCardsTitle || showCardsSubtitle\">\n                    <h3 class=\"cards-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showCardsTitle\" data-app-selector=\".cards-title\"></h3>\n                    <h5 class=\"cards-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showCardsSubtitle\" data-app-selector=\".cards-subtitle\"></h5>\n                </div>\n                <div class=\"cards-list\" mbr-if=\"showSubtitle || showTitle || showText || showLabel\">\n                    <div class=\"card\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Social Media Marketing Services📢</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Volutpat commodo - (2017 - Present)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\"><a href=\"Social-Media-Marketing-Aruba.html\" class=\"text-primary\">⟩</a>\n                                        </p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                                    Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic. The major social media platforms (at the moment) are TikTok, Facebook, Instagram, Twitter, LinkedIn, Pinterest, YouTube, and Snapchat.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardsAmount2 > 1\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Domain and Website Hosting Services🌍</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Nec ullamcorper sit - (2012 - 2016)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\"><a href=\"cdn-hosting-providers.html\" class=\"text-primary\">⟩</a>\n                                        </p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                                    Juntech Web Solutions Aruba does not directly offer domain and web hosting services. However, I can provide my years of experience to help you choose the best domain and website hosting solution for your business website. I will suggest a web host and a domain registrar and work with you to set them up. </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardsAmount2 > 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-bg\"></div>\n                            <div class=\"card-box\">\n                                <div class=\"card-text-container\" mbr-if=\"showTitle || showSubtitle || showLabel\">\n                                    <div class=\"card-text-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Local Search Engine Optimization (SEO)</h5>\n                                        <h6 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                            Scelerisque eleifend - (2020 - 2011)\n                                        </h6>\n                                    </div>\n                                    <div class=\"card-text-label\" mbr-if=\"showLabel\">\n                                        <p class=\"card-label mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-label\">\n                                            <a href=\"Local-SEO-Services-Aruba.html\" class=\"text-primary\">⟩</a>\n                                        </p>\n                                    </div>\n                                </div>\n                                <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                                    Local SEO is the process of making your business's or company's website and its content as visible as possible for location-based searches, specifically within the Google My Business Local Pack. Are you ready to take the next step and grow your business online? Contact JWS Aruba today!\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n\n\n    </div>\n</section>",
-          "_anchor": "Marketing-Services-JWS-Aruba",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1 expertm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\" condition=\"showIcon\">\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showIcon\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Card BG 1\" name=\"cardBg1\" value=\"#161616\">\n        <input type=\"color\" title=\"Card BG 2\" name=\"cardBg2\" value=\"#23272b\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <header>Card Hover</header>\n        <input type=\"color\" title=\"Card Text Color\" name=\"cardHoverText\" value=\"#FFFFFF\">\n        <input type=\"color\" title=\"Card BG 1\" name=\"cardHoverBg1\" value=\"#212428\">\n        <input type=\"color\" title=\"Card BG 2\" name=\"cardHoverBg2\" value=\"#16181c\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/42883-1440x1440.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#23272b\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#212428\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <div class=\"mbr-section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">🆆🅴🅱🆂🅸🆃🅴 🅳🅴🆂🅸🅶🅽 Services JWS Provide:</h3>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">9+ YEARS OF EXPERIENCE</h5>\n                </div>\n            </div>\n        </div>\n        <div class=\"row card-row\" mbr-if=\"showIcon || showTitle || showText\">\n            <div class=\"card col-12 col-md-6 col-xl-4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-bg\"></div>\n                    <div class=\"card-box\">\n                        <div class=\"iconfont-wrapper {{contentAlign}}\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mbri-website-theme\"></span>\n                        </div>\n                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\"><a href=\"web-design-services-aruba.html\" class=\"text-primary\">Website Design Services</a>⚡</h5>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                            JWS Aruba provides an aesthetic, modern website design that conveys the right information, creates a connection with the viewer, and accurately portrays your exact message. We fully customize your site to maximize your goals. A responsive website optimized for search engines and primed for ranking.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6 col-xl-4\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-bg\"></div>\n                    <div class=\"card-box\">\n                        <div class=\"iconfont-wrapper {{contentAlign}}\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont icon54-v3-seo-webpage\" style></span>\n                        </div>\n                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\"><a href=\"seo-services-aruba.html\" class=\"text-primary\">Search Engine Optimization (SEO) Services</a>🚀</h5>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                            Are you looking for SEO services in Aruba? Then you are in the right place. JWS Aruba offers affordable SEO services such as performance audits, domain management, and content analysis to identify, solve, and optimize website problems and improve your search engine rankings, generate more organic traffic, and maximize your business visibility.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6 col-xl-4\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-bg\"></div>\n                    <div class=\"card-box\">\n                        <div class=\"iconfont-wrapper {{contentAlign}}\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont icon54-v2-social-media\"></span>\n                        </div>\n                        <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\"><a href=\"Social-Media-Marketing-Aruba.html\" class=\"text-primary\">Social Media Marketing</a>📢</h5>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                            Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic. The major social media platforms (at the moment) are TikTok, Facebook, Instagram, Twitter, LinkedIn, Pinterest, YouTube, and Snapchat.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "Website-Designer-and-SEO-Expert-Aruba",
           "_isUserblock": true,
-          "_cid": "ttDl8UaNVe",
+          "_cid": "tKtkaQPdT8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
